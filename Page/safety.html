@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全国互联网安全管理服务平台</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/safety.css">
+</head>
+
+<body>
+    <div class="safety-ding">
+        <div class="current clearfix">
+            <a href="" class="log">
+                <img src="../Images/aq-logo.png" alt="">
+            </a>
+            <div class="safety-ding-you">
+                <div class="safety-ding-ys">
+                    <input class="span2" type="text" style="border-right:0px;" placeholder="备案查询">
+                    <span></span>
+                </div>
+                <ul class="safety-ding-yx">
+                    <li class="active"><a href="">首页</a></li>
+                    <li><a href="">公共查询</a></li>
+                    <li><a href="">常见问题</a></li>
+                    <li><a href="">法规文件</a></li>
+                    <li><a href="">通知公告</a></li>
+                    <li><a href="">备案须知</a></li>
+                    <li><a href="" onclick="loading()">备案展厅</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tu"></div>
+    <div class="safety-neirong">
+        <div class="current clearfix">
+            <h3>联网备案信息</h3>
+            <div class="p_cont">
+                <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    为了保护网络信息安全，保障公民、法人和其他组织的合法权益，维护国家安全和社会公共利益，
+                    公安机关将备案网站的基本情况公布如下：
+                </strong>
+                <div class="wzjb">
+                    <h5>网站基本情况</h5>
+                    <table class="" width="100%" border="1">
+                        <tbody>
+                            <tr>
+                                <td width="30%">网站名称</td>
+                                <td width="70%">瓜子二手车直卖网</td>
+                            </tr>
+                            <tr>
+                                <td width="30%">网站域名</td>
+                                <td width="70%">guazi.com</td>
+                            </tr>
+                            <tr>
+                                <td width="30%">开办主体</td>
+                                <td width="70%">企业单位</td>
+                            </tr>
+                            <tr>
+                                <td width="30%">网站类别</td>
+                                <td width="70%">非交互式</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="wzjb">
+                    <h5>网站所有者基本情况</h5>
+                    <table class="" width="100%" border="1">
+                        <tbody>
+
+                            <tr>
+                                <td width="30%">开办者名称</td>
+                                <td width="70%">车好多旧机动车经纪（北京）有限公司</td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td width="30%">公安备案号</td>
+                                <td width="70%">11010802020161</td>
+                            </tr>
+                            <tr>
+                                <td width="30%">备案地公安机关 </td>
+                                <td width="70%">北京市海淀驻区大队</td>
+                            </tr>
+                            <tr>
+                                <td width="30%">联网备案时间</td>
+                                <td width="70%">2016-02-25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您如果发现该网站在网络经营活动中存在违反国家法律、法规的经营行为，请登录<a href="http://www.cyberpolice.cn/wfjb?token=ee025aae-6fe4-4cb9-9772-ee66a3d25a63"
+                        target="_blank">网络违法犯罪举报网站</a>进行举报。</strong>
+            </div>
+        </div>
+    </div>
+    <!-- 尾页 -->
+    <div class="z_footerk">
+        <p class="z_gap"></p>
+        <div class="z_footer" style="padding-bottom: 15px;">
+            <!-- <div style="text-align: center;margin:0 auto;width: 550px;"> -->
+            <div style="text-align: center;margin:0 auto;width: 950px;height: 79px;">
+                <div style="width: 700px;height: 79px;margin:0 auto;">
+                  
+                    <div style="float:left;font-size:12px;text-align:center;">
+                        <p class="text-center" style="color:#666666;">
+                            Copyright 公安部网络安全保卫局 All Rights Reserved<br>
+                            <a href="">京ICP备05070602号&nbsp;&nbsp;&nbsp;</a>
+                            邮箱：<a href="">support@beian.gov.cn</a><br>
+                        </p>
+                        <div style="width:440px;margin:0 auto; padding: 0;">
+                            <a target="_blank" href="" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;width: 100%;">
+                                <img class="e" src="../Images/aq-dzjg.png" style="float:left;">
+                                <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 15px; color:#666666;">
+                                    京公网安备 11010102002019号
+                                </p>
+                                &nbsp;&nbsp;&nbsp;网站标识码：bm09000026
+                            </a>
+                        </div>
+                        <div>
+                            <p> 建议使用1024*768以上分辨率浏览</p>
+                        </div>
+                        <p></p>
+
+                        <form id="recordform" action="/portal/registerSystemInfo" method="post"><input type="hidden"
+                                name="recordcode" value="京ICP备030173号">
+                            <input type="hidden" name="token" value="ee025aae-6fe4-4cb9-9772-ee66a3d25a63">
+                        </form>
+                    </div>
+                    <div style="float:left;padding-right:26px;padding-top:10px;">
+                     <span id="_span_jiucuo"><img onclick="Link('bm09000026')" style="margin:0;border:0;cursor: pointer;"
+                                src="http://121.43.68.40/exposure/images/jiucuo.png?v=bm09000026"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

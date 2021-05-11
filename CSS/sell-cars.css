@@ -1,0 +1,1651 @@
+body{
+    /* overflow: hidden; */
+    /* width: 100%;
+    height: 100%; */
+    background-image: url(../Images/sell-bg.290289564e5360959be1857de09bf8c4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    font: 12px/1.5 'Microsoft Yahei', arial, helvetica, clean, sans-serif;
+}
+.current{
+
+    width: 1200px;
+    /* border: 1px solid lightgray; */
+    margin: 0px auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .Sell-cars-ding{
+      height: 55px;
+    
+  }
+  .Sell-cars-ding-zhong>a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+  }
+  .Sell-cars-ding .mai{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid #3CB46D;
+  }
+  .Sell-cars-ding-left{
+      /* position: relative; */
+      float: left;
+      width: 91px;
+      height: 55px;
+      
+  }
+
+
+  .Sell-cars-ding-left img{
+      width: 55px;
+      height: 55px;
+  }
+
+
+
+  
+  .city:hover .city-xiala{
+    display:block;
+   
+}
+/* 城市 */
+  .city{
+      cursor: pointer;
+      float: left;
+      position: relative;
+    /* position: absolute;
+    top: 0px;
+    left: 97px; */
+    
+  }
+  .city>p{
+    display: inline-block;
+    line-height: 55px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .city>p:hover{
+    color: #fff;
+    font-weight: 700;
+  }
+  /* 城市下拉按钮 */
+   .city i{
+    position: absolute;
+    top: 26px;
+    left: 34px;
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background-image: url(../Images/nanjingxiabiao.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+  }
+.city-xiala{
+    display: none;
+    position: absolute;
+    width: 1523px;
+    margin-left: -253px;
+    height: 566px;
+    background-color: #fff;
+    border-top: #B0B7C0 1px solid;
+    box-shadow: 0 1px 2px 0 rgba(204, 204, 204, .5);
+  }
+  .city-xiala-zhong{
+    width: 1200px;
+    height: 566px;
+    margin: 0px auto;
+    overflow: auto;
+  }
+ 
+  .city-xiala-top{
+    line-height: 80px;
+      height: 80px;
+      border-bottom: 1px solid lightgrey;
+  }
+ .city-xiala-top ul li{
+    color: black;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .city-xiala-top ul li:hover{
+    color: #22ab38;
+  }
+  .city-xiala-top>.zuo{
+      float: left;
+  }
+  .city-xiala-top>.you{
+    float: right;
+    margin-right: 132px;
+}
+.city-xiala-bottom>.zuo{
+    width: 460px;
+}
+.city-xiala-bottom>.you{
+    width: 460px;
+}
+ .city-xiala-bottom dl dd{
+    display: inline-block;
+    /* height: -5px; */
+    line-height: 39px;
+}
+ .city-xiala-bottom dl dd a{
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    padding-right: 10px;
+  }
+   .city-xiala-bottom dl dd a:hover{
+    color: #22ab38;
+  }
+  .city-xiala-bottom dl dt{
+   margin-top: 10px;
+   margin-bottom: 10px;
+    color: #22ab38;
+    font-size: 14px;
+  }
+  .city-xiala-bottom>.zuo{
+      float: left;
+  }
+  .city-xiala-bottom>.you{
+    float: right;
+    margin-right: 165px;
+}
+  .Sell-cars-ding-zhong{
+    width: 570px;
+    height: 49px;
+    float: left;
+    margin-left: 200px;
+    line-height: 55px;
+    
+  }
+  .Sell-cars-ding-zhong a{
+    line-height: 40px;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .Sell-cars-ding-right{
+      float: right;
+      color: #fff;
+  }
+  .Sell-cars-ding-right p{
+    font-size: 14px;
+    margin-top: 16px;
+    display: inline-block;
+    width: 180px;
+    border-right: #fff 1px solid;
+    /* line-height: 55px; */
+  }
+  .Sell-cars-ding-right>a{
+      
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+        background-size: 451px 300px;
+    background-image: url(../Images/icon_2.30d194c7e6ef6ce7a827821d20ea10a9.png);
+    background-position: 8px -265px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 30px;
+    /* line-height: 55px; */
+  }
+  /* 登录 */
+  /* .Sell-cars-ding-right-denglu{
+      display: none;
+  } */
+
+.Sell-cars-ding-right-denglu{
+    margin-top: 94px;
+    margin-left: -733px;
+    width: 800px;
+    height: 430px;
+    border: 3px solid #d8dde5;
+    background-color: white;
+    position: fixed;
+    display: none;
+    z-index: 111;
+   
+}
+#bg{
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 111;
+}
+
+.Sell-cars-ding-right-denglu>h1{
+    position: relative;
+    line-height: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: #495056;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.Sell-cars-ding-right-denglu>h1>.end{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    
+    background-image: url(../Images/end.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.Sell-cars-ding-right-denglu-shouji{
+    width: 622px;
+    height: 54px;
+    margin-left: 132px;
+}
+.Sell-cars-ding-right-denglu-shouji>.shou{
+    /* float:right; */
+    /* margin-left: 30px; */
+    padding: 10px 15px;
+    width: 390px;
+    height: 20px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+    font-family: "microsoft yahei";
+}
+.Sell-cars-ding-right-denglu-shouji>i{
+    /* float: left; */
+    display:inline-block;
+    width: 107px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+
+}
+.Sell-cars-ding-right-denglu-yanzheng{
+    width: 622px;
+    height: 54px;
+    margin-left: 132px;
+}
+.Sell-cars-ding-right-denglu-yanzheng>.yan{
+    padding: 10px 15px;
+    width: 232px;
+    height: 20px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+    font-family: "microsoft yahei";
+}
+.Sell-cars-ding-right-denglu-yanzheng>i{
+    display: inline-block;
+    width: 85px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+    padding-left: 22px;
+}
+.Sell-cars-ding-right-denglu-yanzheng>button{
+    width: 150px;
+    height: 42px;
+    background: #22ac38;
+    font-size: 16px;
+    margin-left: 8px;
+    color: #fff;
+    font-family: "microsoft yahei";
+    line-height: 42px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+
+}.Sell-cars-ding-right-denglu-yanzheng>button:hover{
+    background-color: #179500;
+}
+.Sell-cars-ding-right-denglu>button{
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "microsoft yahei";
+    margin: 0 auto;
+    margin-top: 20px;
+   
+}
+
+.Sell-cars-ding-right-denglu>h3{
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #22ac38;
+    padding: 20px 0 10px 0;
+    font-weight: 400;
+  
+
+}
+.Sell-cars-ding-right-denglu>span{
+    margin-left: 256px;
+    text-align: center;
+    color: #B0B7C0;
+}
+.Sell-cars-ding-right-denglu>i>a{
+    color: #22ac38;
+}
+
+
+
+
+
+
+  /* 顶结束 */
+  /* 字开始 */
+  .Sell-cars-zi h1{
+    color: #fff;
+    font-size: 44px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 50px;
+    font-family:  'Microsoft Yahei';
+    font-weight: 500;
+  }
+  .Sell-cars-zi-sousuo{
+      margin-left: 225px;
+      margin-top: 38px;
+  }
+  .Sell-cars-zi-sousuo-ip{
+    float: left;
+      width: 408px;
+      height: 18px;
+      line-height: 18px;
+      color: #495056;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    padding: 17px 15px;
+  }
+  .Sell-cars-zi-sousuo button{
+      width: 148px;
+      height: 56px;
+      font-size: 20px;
+      font-family: "microsoft yahei";
+      color: #fff;
+      border: none;
+  }
+  .Sell-cars-zi-sousuo button:hover{
+    background-color: #179500;
+  }
+  .Sell-cars-zi-sousuo .Sell-cars-zi-sousuo-mfmc{
+    background-color: #22ac38;
+    margin-right: 15px;
+  
+    float: left;
+  
+  }
+  .Sell-cars-zi-sousuo .Sell-cars-zi-sousuo-ksgj{
+    background: #66c675;
+  }
+
+
+  .Sell-cars-zi-cs{
+    width: 400px;
+    height: 26px;
+    line-height: 26px;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 34px;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-position: -400px -130px;
+    background-repeat: no-repeat;
+  }
+
+  .Sell-cars-zi-cs>a{
+    font-size: 18px;
+    color: #fff;
+  }
+  .Sell-cars-zi-cs>a:hover{
+    color: #179500;
+  }
+  /* <!-- 字开始end -->
+  <!-- 瓜子包卖服务 --> */
+  .Sell-cars-gzbmfw>.current{
+    width: 1200px;
+    height: 410px;
+    padding-top: 50px;
+    background: #fff;
+  }
+  .Sell-cars-gzbmfw-bm{
+    font-size: 32px;
+    color: #22ac38;
+    line-height: 48px;
+    text-align: center;
+  }
+  .Sell-cars-gzbmfw-ln{
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 30px;
+    text-align: center;
+  }
+
+.Sell-cars-gzbmfw-ul{
+    padding-top: 23px;
+    width: 1086px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Sell-cars-gzbmfw-ul>li{
+    text-align: center;
+    width: 362px;
+    height: 255px;
+    /* display:inline-block; */
+    float: left;
+}
+.Sell-cars-gzbmfw-ul-nq{
+    width: 114px;
+    height: 114px;
+    background-image: url(../Images/sell-bg-dtnq.604fd454d04a588391ef47978f7cc15d.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+}
+.Sell-cars-gzbmfw-ul-gj{
+    width: 114px;
+    height: 114px;
+    background-image: url(../Images/sell-bg-er.09b52a91f721ec775b338d2f483aa4e8\ \(1\).png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+}
+ .Sell-cars-gzbmfw-ul-sx{
+    width: 114px;
+    height: 114px;
+    background-image: url(../Images/Sell-shengxin.b641a317e5e972f837c5a212508326e6.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+}
+.Sell-cars-gzbmfw-ul-py{
+    font-size: 20px;
+    color: #373b3f;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.Sell-cars-gzbmfw-ul-per{
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 26px;
+    text-align: center;
+}
+.Sell-cars-gzbmfw-a{
+    display: block;
+    width: 150px;
+    height: 24px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 14px;
+    color: #22ac38;
+    text-align: center;
+}
+.Sell-cars-gzbmfw-a:hover{
+    color: #22ac38;
+    text-decoration: underline;
+}
+.Sell-cars-gzbmfw-a>i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../Images/sell-bg-xb.png) no-repeat;
+    vertical-align: -2px;
+    margin-left: 10px;
+}
+/* <!-- 瓜子包卖服务end -->
+<!-- 最新成交 --> */
+.Sell-cars-zxcj>.current{
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+.Sell-cars-zxcj>p{
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+.Sell-cars-zxcj i{
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+/* 轮播图 */
+.Sell-cars-zxcj-zdw{
+    position: relative;
+    top: 15px;
+    width: 1160px;
+    height: 334px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Sell-cars-zxcj-ul{
+    width:calc(350px * 13);
+    height: 334px;
+    position: relative;
+   
+
+}
+.Sell-cars-zxcj-ul li{
+    position: relative;
+    float: left;
+    top: 15px;
+    width: 270px;
+    height: 300px;
+    margin: 0 10px 34px;
+}
+.Sell-cars-zxcj-ul li img{
+    display: block;
+    width: 270px;
+    height: 180px;
+}
+.Sell-cars-zxcj-ul li .Sell-cars-zxcj-ul-yi{
+    font-size: 16px;
+    color: #495056;
+    padding-top: 15px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Sell-cars-zxcj-ul li .Sell-cars-zxcj-ul-er{
+    font-size: 14px;
+    color: #a5abb2;
+    line-height: 30px;
+}
+.Sell-cars-zxcj-ul li .Sell-cars-zxcj-ul-san{
+    font-size: 14px;
+    color: #495056;
+    line-height: 30px;
+}
+.Sell-cars-zxcj-ul-dw{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-repeat: no-repeat;
+    background-position: -330px -130px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 7px
+}
+.Sell-cars-zxcj-ul-dw>em{
+    font-size: 14px;
+}
+/* 成交车源 */
+.Sell-cars-zxcj-a{
+    position: relative;
+    display: block;
+    width: 168px;
+    height: 40px;
+    margin: 15px auto 50px;
+    text-align: center;
+    line-height: 40px;
+    background: #22ac38;
+    font-size: 16px;
+    color: #fff;
+}
+.Sell-cars-zxcj-a:hover {
+    color: #ffffff;
+}
+/* 成交车源 */
+.Sell-cars-zxcj-tck{
+    margin: -215px 0 0 -400px;
+    width: 800px;
+    height: 430px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 3px solid #d8dde5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2201;
+    display:none;
+}
+
+.Sell-cars-zxcj-zx{
+    line-height: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: #495056;
+    padding-bottom: 30px;
+}
+.Sell-cars-zxcj-tck-end{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(../Images/end.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.Sell-cars-zxcj-tck-ul{
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+.Sell-cars-zxcj-tck-ul>li{
+    height: 54px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.Sell-cars-zxcj-tck-ul>li>p{
+    float: left;
+    width: 112px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #495056;
+}
+.Sell-cars-zxcj-tck-ul>li>div{
+    float: left;
+    margin-right: 7px;
+}
+.Sell-cars-zxcj-tck-ul>li>div>input{
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 38px 10px 14px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #495056;
+    cursor: pointer;
+    background-image: url(../Images/sell-bg-ck.png);
+    background-position-x:right;
+    background-repeat: no-repeat;
+}
+
+.Sell-cars-zxcj-tck>button{
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: "microsoft yahei";
+}
+.Sell-cars-zxcj-mf{
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #22ac38;
+    padding: 20px 0 10px 0;
+}
+
+/* 成交车源 end*/
+/* <!-- 最新成交end -->
+<!-- 瓜子问答 --> */
+.Sell-cars-gzwd{
+    height: 535px;
+    background: #f8f8f8;
+}
+.Sell-cars-gzwd-zi{
+    width: 1200px;
+    height: 47px;
+    padding: 33px 0 40px;
+}
+.Sell-cars-gzwd-zi>p{
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+.Sell-cars-gzwd-zi>i{
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+.Sell-cars-gzwd-ul>li{
+    width: 500px;
+    height: 190px;
+    float: left;
+    margin: 0 60px 0 35px;
+}
+.Sell-cars-gzwd-ul-er{
+    float: right;
+    width: 425px;
+    padding-top: 12px;
+}
+.Sell-cars-gzwd-ul-er-yi{
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 15px;
+    background: #ebebeb;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+.Sell-cars-gzwd-ul-er-yi>i{
+    position: absolute;
+    top: 13px;
+    left: -11px;
+    display: block;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-right: 5px solid #ebebeb;
+}
+.Sell-cars-gzwd-ul-pcyi{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-repeat: no-repeat;
+    background-position: -130px -220px;
+}
+.Sell-cars-gzwd-ul-pcer{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-repeat: no-repeat;
+    background-position: -190px -220px;
+}
+.Sell-cars-gzwd-ul-pcsan{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-repeat: no-repeat;
+    background-position: -250px -220px;
+}
+.Sell-cars-gzwd-ul-pcsi{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../Images/icon.4cc0b104c88b9d992a15d4cf86eab6a9.png);
+    background-repeat: no-repeat;
+    background-position: -310px -220px;
+}
+/* <!-- 瓜子问答end -->
+
+
+
+
+
+<!-- 底部开始 --> */
+.Sell-cars-dibu{
+    color: #b8b8b8;
+    padding: 50px 0 30px;
+    background: #2a2c37;
+    /* height: 284px; */
+}
+.Sell-cars-dibu-top{
+    width: 1190px;
+    height: 90px;
+    margin: 0 auto;
+    color: #b8b8b8;
+    padding-bottom: 70px;
+    position: relative;
+}
+.Sell-cars-dibu-logo{
+    width: 102px;
+    height: 90px;
+    background-position: -154px -100px;
+    float: left;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/global-3.eec70361a72926654002776168a54cb7.png);
+}
+
+
+
+.Sell-cars-dibu-lianxi{
+    float: left;
+    width: 378px;
+    padding-left: 30px
+}
+.Sell-cars-dibu-lianxi>p{
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.Sell-cars-dibu-lianxi>p>i{
+    padding-right: 18px;
+}
+.Sell-cars-dibu-lianxi>p>span{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.Sell-cars-dibu-ewy{
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-right: 30px;
+    text-align: center;
+}
+.Sell-cars-dibu-ewy>img{
+    display: block;
+    float: left;
+    width: 85px;
+    height: 85px;
+    margin-top: 4px;
+
+}
+.Sell-cars-dibu-ewy>p{
+    width: 82px;
+    line-height: 28px;
+    font-size: 14px;
+    float: left;
+}
+
+.Sell-cars-dibu-ewe{
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-right: 30px;
+    text-align: center;
+}
+.Sell-cars-dibu-ewe>img{
+    display: block;
+    float: left;
+    width: 85px;
+    height: 85px;
+    margin-top: 4px;
+}
+.Sell-cars-dibu-ewe>.yi{
+    width: 82px;
+    line-height: 28px;
+    font-size: 14px;
+    float: left;
+}
+.Sell-cars-dibu-ewe>.er{
+    width: 80px;
+    height: 16px;
+    background: #22AC38;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 16px;
+}
+
+
+.Sell-cars-dibu-ga{
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+    background: transparent;
+    margin: 0;
+}
+.Sell-cars-dibu-ga-top{
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.Sell-cars-dibu-ga-top>a{
+    color: #b8b8b8;
+    margin-right: 5px;
+}
+
+
+.Sell-cars-dibu-ga-di{
+    padding-top: 3px;
+    height: 28px;
+    line-height: 28px;
+}
+.Sell-cars-dibu-ga-di p{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 5px;
+    color: #939393;
+}
+
+.Sell-cars-dibu-dz{
+    width: 1190px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Sell-cars-dibu-di>p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    padding-top: 20px;
+}
+.Sell-cars-dibu-dv{
+    width: 1100px;
+    padding: 0 0 0 90px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.Sell-cars-dibu-dv>p{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+    color: #666;
+}
+.Sell-cars-dibu-dv>a{
+    color: #666;
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.Sell-cars-dibu-dv>span{
+    background-image: url(../Images/global-3.eec70361a72926654002776168a54cb7.png);
+    background-repeat: no-repeat
+}
+.Sell-cars-dibu-dv-open{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    background-position: -70px -100px;
+    cursor: pointer;
+}
+.Sell-cars-dibu-dv-clae{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    display: none;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    background-position: -90px -100px;
+    cursor: pointer;
+}
+/* <!-- 底部开始end -->
+
+
+
+
+
+
+<!-- 顶部浮层 --> */
+.Sell-cars-dbfc {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    display:none;
+}
+.Sell-cars-dbfc h1{
+    float: left;
+}
+.Sell-cars-dbfc h1 a{
+    display: block;
+    background-color: #22ac38;
+    background-image: url(../Images/sell-car-dbfc.png);
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px;
+}
+.Sell-cars-dbfc-zhong{
+    float: left;
+    width: 700px;
+    height: 44px;
+    padding: 10px 0 10px 80px;
+}
+.Sell-cars-dbfc-zhong>input{
+    float: left;
+    width: 348px;
+    height: 18px;
+    padding: 12px 15px;
+    line-height: 18px;
+    color: #495056;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    border: 1px solid #e6e6e6;
+    border-right: none;
+}
+.Sell-cars-dbfc-zhong>button{
+    float: left;
+    width: 130px;
+    height: 44px;
+    border: none;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    color: #fff;
+}
+.Sell-cars-dbfc-zhong-yi{
+    background: #22ac38;
+    margin-right: 10px;
+}
+.Sell-cars-dbfc-zhong-er{
+    background: #66c675;
+}
+
+.Sell-cars-dbfc-you{
+    height: 20px;
+    margin-top: 22px;
+    padding-left: 30px;
+    float: right;
+    line-height: 20px;
+    font-size: 18px;
+    color: #495056;
+    background-position: 0 0;
+    background: url(../Images/sell-car-dbfc-dh.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+/* // 顶部导航浮层end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <!-- 右侧浮层 --> */
+.Sell-cars-zcfc{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    height: 100%;
+}
+.Sell-cars-zcfc-gjl{
+   
+    width: 26px;
+    height: 74px;
+    background-color: #434857;
+    color: #fff;
+    position: absolute;
+    -webkit-transition: right 0.3s;
+    transition: right 0.3s;
+    right: 40px;
+    top: 45%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    line-height: 14px;
+    padding-top: 10px;
+}
+.Sell-cars-zcfc-zdw{
+    width: 40px;
+    height: 100%;
+    background: #2a2c37;
+}
+.Sell-cars-zcfc-zdw>li{
+    position: absolute;
+    top: 32%;
+    z-index: 110;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-image: url(../Images/side-bar@2x.123f320505e05644a360c375ae715a88.png);
+ 
+    background-repeat: no-repeat;
+    background-size: 259px 306px;
+}
+.Sell-cars-zcfc-zdw li span{
+    background-image: url(../Images/side-bar@2x.123f320505e05644a360c375ae715a88.png);
+    background-repeat: no-repeat;
+    background-size: 259px 303px;
+}
+.Sell-cars-zcfc-zdw>li>div{
+    position: absolute;
+    right: 64px;
+    color: #495056;
+    border: 1px solid #dcdcdc;
+    cursor: default;
+    background-color: #fff;
+    display: none;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*  */
+.Sell-cars-zcfc-shi {
+    margin-top: 178px;
+    background-position: -55px -166px;
+}
+.Sell-cars-zcfc-shi-dw{
+    position: absolute;
+    display: none;
+    top: -375px;
+    left: -660px;
+    width: 640px;
+    height: 600px;
+    border: #2a2c37 solid 1px;
+    /* border-radius: 3px; */
+    /* cursor: default; */
+    background-color: #f5f5f7;
+}
+.Sell-cars-zcfc-shi-dw>h3{
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+    color: #495056;
+    font-weight: 400;
+    padding: 29px 0 19px 25px;
+}
+.Sell-cars-zcfc-shi-dw-yi {
+    font-size: 30px;
+    color: #757f89;
+    text-align: center;
+    line-height: 365px;
+}
+.Sell-cars-zcfc-shi-dw-er{
+    text-align: center;
+}
+.Sell-cars-zcfc-shi-dw-er>a{
+    font-size: 16px;
+    color: #22ac38;
+}
+
+/*  */
+.Sell-cars-zcfc-xz {
+    background-position: -55px 7px;
+  
+}
+.Sell-cars-zcfc-xz-dw{
+    position: absolute;
+    top: -80px;
+    width: 240px;
+    height: 209px;
+    text-align: center;
+    /* right: 64px;
+    color: #495056;
+    border: 1px solid #dcdcdc;
+    cursor: default;
+    background-color: #fff;
+    display: none; */
+}
+.Sell-cars-zcfc-xz-dw>span{
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    background-position: -138px -186px;
+    margin-top: 25px;
+}
+.Sell-cars-zcfc-xz-dw>p{
+    padding-top: 10px;
+    font-size: 14px;
+  
+}
+
+/*  */
+.Sell-cars-zcfc-wx{
+    margin-top: 45px;
+    background-position: -55px -35px;
+}
+.Sell-cars-zcfc-wx-dw{
+    top: -80px;
+    width: 240px;
+    height: 209px;
+    text-align: center;
+   
+}
+.Sell-cars-zcfc-wx-dw>span{
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    background-position: -138px -55px;
+    margin-top: 25px;
+}
+.Sell-cars-zcfc-wx-dw>p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+/* 意见 */
+.Sell-cars-zcfc-yj{
+    margin-top: 90px;
+    background-position: -55px -120px;
+}
+.Sell-cars-zcfc-yj-dw {
+
+    width: 120px;
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 55px;
+    line-height: 55px;
+}
+.Sell-cars-zcfc-yj-zdj{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2201;
+    margin: -297px 0 0 -400px;
+    width: 800px;
+    height: 594px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 3px solid #d8dde5;
+    display: none;
+  
+
+}
+.Sell-cars-zcfc-yj-zdj-end {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../Images/end.png) no-repeat center center;
+}
+.Sell-cars-zcfc-yj-zdj>p{
+    display: block;
+    font: 24px/70px "microsoft yahei";
+    color: #495056;
+    text-align: center;
+}
+.Sell-cars-zcfc-yj-dj{
+    display: block;
+    padding: 0 66px 0 48px;
+    font-family: "microsoft yahei";
+    font-size: 16px
+}
+.Sell-cars-zcfc-yj-dj>p{
+    display: block;
+    padding-top: 17px;
+    font-size: 18px;
+    color: #757f89;
+}
+.Sell-cars-zcfc-yj-dj-ul{
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 24px;
+}
+.Sell-cars-zcfc-yj-dj-ul>li{
+    float: left;
+    width: 132px;
+    margin-top: 10px;
+    color: #495056;
+    cursor: pointer;
+}
+.Sell-cars-zcfc-yj-dj-ul>li>span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 5px;
+    vertical-align: top;
+    border: 2px solid #d8dde5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Sell-cars-zcfc-yj-dj-ul>li>span>i{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 3px 0 0 3px;
+    border-radius: 50%;
+    background-color: #22ac38;
+    display: none;
+}
+.Sell-cars-zcfc-yj-wz {
+    width: 680px;
+    height: 204.6px;
+    margin:80px 0 0;
+    overflow: hidden;
+}
+.Sell-cars-zcfc-yj-wz-yi{
+    position: relative;
+    overflow: hidden;
+}
+.Sell-cars-zcfc-yj-wz-yi>textarea{
+    float: left;
+    width: 658px;
+    height: 118px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+}
+.Sell-cars-zcfc-yj-wz-yi>span{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: #a5abb2;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+.Sell-cars-zcfc-yj-wz-er {
+    position: relative;
+    overflow: hidden;
+    margin-top: 13px;
+}
+.Sell-cars-zcfc-yj-wz-er>textarea{
+    float: left;
+    width: 658px;
+    height: 40px;
+    line-height: 40px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+}
+.Sell-cars-zcfc-yj-dj>button{
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 50px auto;
+    font-family: 'Microsoft Yahei';
+}
+.Sell-cars-zcfc-yj-dj>button:hover{
+    background: #179500;
+}
+/*  */
+.Sell-cars-zcfc-zx{
+    margin-top: 135px;
+    background-position: -55px -76px;
+}
+.Sell-cars-zcfc-zx-dw {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 226px;
+    color: #495056;
+    line-height: 55px;
+}
+/*  */
+.Sell-cars-zcfc-zhiding {
+    margin-top: 232px;
+    background-position: -55px -207px;
+    display: none;
+}
+
+/* 6 */
+.Sell-cars-zcfc-liu {
+    position: absolute;
+    top: 32%;
+    z-index: 110;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 232px;
+    background-position: -55px -207px;
+}
+/* 7 */
+.Sell-cars-zcfc-qi{
+    background-color: transparent;
+    margin-top: 180px;
+    height: 2px;
+    line-height: 0;
+    font-size: 0;
+    background-position: 0 -520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  <!-- 快速估价 --> */
+.pop-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2201;
+    margin: -275px 0 0 -400px;
+    width: 800px;
+    height: 550px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 3px solid #d8dde5;
+    display: none;
+}
+.pop-box .pop-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../Images/end.png) no-repeat center center;
+}
+.pop-box .pop-tit {
+    line-height: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: #495056;
+    padding-bottom: 30px;
+}
+.pop-box .sub-btn {
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: "microsoft yahei";
+}
+.pop-box .free-phone {
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #22ac38;
+    padding: 20px 0 10px 0;
+}
+.form {
+    padding-left: 80px;
+}
+/* 车源地 */
+.hot-car li:hover, .all-brand li:hover, .com-ul .com-li:hover {
+    background: #22ac38;
+    color: #fff;
+}
+.form li {
+    height: 54px;
+}
+.li-t {
+    float: left;
+    width: 112px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #495056;
+}
+.conselect {
+    position: relative;
+    float: left;
+}
+.mr-7 {
+    margin-right: 7px;
+}
+.address-province{
+    position: relative;
+}
+.address-city{
+    position: relative;
+}
+.inputype {
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 38px 10px 14px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #495056;
+    cursor: pointer;
+    background: url(../Images/sell-bg-jiantougujia.png) no-repeat right 0;
+}
+.conselect.active .inputype {
+    background-position: right -40px;
+    border: 1px solid #22ac38;
+    border-radius: 3px 3px 0 0;
+}
+.down-box {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    border: 1px solid #22ac38;
+    background: #fff;
+    z-index: 1;
+    display: none;
+}
+.com-ul-288 {
+    max-height: 288px;
+}
+
+.com-ul {
+    padding: 10px;
+    overflow: auto;
+    width: 236px;
+    max-height: 248px;
+}
+.com-ul .com-li {
+    height: 24px;
+    line-height: 24px;
+    color: #495056;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-indent: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 车型 */
+.inputype-72 {
+    width: 72px;
+}
+.mr-6 {
+    margin-right: 6px;
+}
+/* 行驶里程 */
+.odo-input {
+    width: 428px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 79px 10px 14px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #495056;
+    background: url(../Images/sell-bg-jiantougujia.png) no-repeat right -80px;
+}
+/* 接受手机 */
+.pg-phone-input {
+    float: left;
+    width: 491px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+    font-family: "microsoft yahei";
+}
+                
+                /* <!-- 快速估价 --> */ 
